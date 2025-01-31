@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background: #000;
+}
+
+html.lenis, html.lenis body {
+    height: auto;
+   }
+   .lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+   }
+   .lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+   }
+   .lenis.lenis-stopped {
+    overflow: hidden;
+   }
+   .lenis.lenis-smooth iframe {
+    pointer-events: none;
+   }
+
+@keyframes wiggle {
+    0%, 100% {
+      transform: rotate(-3deg);
+    }
+    50% {
+      transform: rotate(3deg);
+    }
+  }
