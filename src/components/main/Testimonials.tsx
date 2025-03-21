@@ -43,8 +43,8 @@ export default function Testimonials() {
               <Image
                 src={testimonial.image}
                 alt={`Zdjęcie klienta ${testimonial.name}`}
-                width={200}
-                height={200}
+                width={150}
+                height={150}
                 className="rounded-full mx-auto mb-4"
               />
               <p className="text-gray-700 italic mb-4">&quot;{testimonial.feedback}&quot;</p>

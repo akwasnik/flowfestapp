@@ -1,5 +1,6 @@
 import { StaticImageData } from "next/image";
 import React from "react";
+import { IconType } from "react-icons";
 
 export interface SendEmailProps{
     name: string,
@@ -22,4 +23,5 @@ export interface GalleryPhotoProps {
 export interface DataContextProps{
     testimonials : { name: string, feedback: string, image: StaticImageData}[],
     features : { title: string, description: string, icon?: React.JSX.Element}[],
+    steps: { title: string, description: string, icon?: React.JSX.Element}[]
 }

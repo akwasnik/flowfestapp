@@ -5,6 +5,7 @@ import testimonialImage3 from "@/assets/images/test3.jpeg";
 import { DataContextProps } from "@/types/types";
 import { Music, PartyPopper, GraduationCap, Cake } from "lucide-react";
 import { createContext } from "react";
+import { FaHandshake, FaMusic, FaCalendarCheck, FaStar } from "react-icons/fa";
 
 const testimonials = [
     {
@@ -27,7 +28,7 @@ const testimonials = [
     },
   ];
 
-  const features = [
+const features = [
     {
       title: "Niezapomniana Rozrywka",
       description:
@@ -54,12 +55,39 @@ const testimonials = [
     },
   ];
 
-export const DataContext = createContext< DataContextProps >({testimonials : [{ name: "", feedback : "", image: testimonialImage1}], features: [{title: "",description: ""}]})
+const steps = [
+    {
+      title: "Pierwszy kontakt i ustalenie potrzeb",
+      description:
+        "Każde wielkie wydarzenie zaczyna się od rozmowy. Skontaktuj się z nami, a wspólnie omówimy Twoje oczekiwania, potrzeby oraz wizję imprezy. Dostosujemy naszą ofertę tak, aby idealnie odpowiadała Twoim wymaganiom.",
+      icon: <FaHandshake className="text-purple-400 text-5xl" />, 
+    },
+    {
+      title: "Organizacja i współpraca",
+      description:
+        "Po określeniu szczegółów, rozpoczynamy działanie. Kontaktujemy się z najlepszymi DJ-ami, właścicielami sali oraz dostawcami usług, aby stworzyć wydarzenie na najwyższym poziomie. Każdy aspekt imprezy jest dopracowany w najmniejszym detalu.",
+      icon: <FaMusic className="text-purple-400 text-5xl" />, 
+    },
+    {
+      title: "Ustalanie terminu i przygotowania",
+      description:
+        "Zarezerwujemy dogodny termin oraz rozpoczniemy przygotowania. Zadbamy o logistykę, scenografię i wszelkie elementy niezbędne do realizacji Twojej wymarzonej imprezy.",
+      icon: <FaCalendarCheck className="text-purple-400 text-5xl" />, 
+    },
+    {
+      title: "Realizacja wydarzenia i obsługa",
+      description:
+        "W dniu imprezy dbamy o każdy szczegół, zapewniając niesamowitą atmosferę oraz profesjonalną obsługę. Pilnujemy, aby każdy uczestnik miał niezapomniane doświadczenia i świetne wspomnienia.",
+      icon: <FaStar className="text-purple-400 text-5xl" />, 
+    },
+  ];
+
+export const DataContext = createContext< DataContextProps >({testimonials : [{ name: "", feedback : "", image: testimonialImage1}], features: [{title: "",description: ""}], steps: [{title: "",description: ""}]})
 
 export default function DataProvider({children}: {children: React.ReactNode}){
 
     return(
-        <DataContext.Provider value={{ testimonials, features}}>
+        <DataContext.Provider value={{ testimonials, features, steps}}>
             {children}
         </DataContext.Provider>
     )

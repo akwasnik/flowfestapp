@@ -30,6 +30,36 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/Oferta/page.js"
+    ],
+    "/Kontakt/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/Kontakt/layout.js"
+    ],
+    "/Kontakt/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/Kontakt/page.js"
+    ],
+    "/Galeria/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/Galeria/layout.js"
+    ],
+    "/Galeria/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/Galeria/page.js"
+    ],
+    "/Onas/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/Onas/layout.js"
+    ],
+    "/Onas/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/Onas/page.js"
     ]
   }
 }

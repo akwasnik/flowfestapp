@@ -45,7 +45,6 @@ export default function Navigation(){
                     <div className="font-asusrog px-16 pb-3 space-y-1">
                             <NavLink href="/Onas" mobile={true}>O nas</NavLink>
                             <NavLink href="/Galeria" mobile={true}>Galeria</NavLink>
-                            <NavLink href="/Posty" mobile={true}>Posty</NavLink>
                             <NavLink href="/Kontakt" mobile={true}>Kontakt</NavLink>
                     </div>
                 </div>

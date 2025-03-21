@@ -27,7 +27,7 @@ export default function EmailButton({ email } : { email : string}) {
 
   const handleSubmit = async (values: SendEmailProps) => {
     try {
-      const response = await fetch("https://formspree.io/f/mzzdrnyj", {
+      const response = await fetch("https://formspree.io/f/xblggzoj", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -96,7 +96,7 @@ export default function EmailButton({ email } : { email : string}) {
                 onSubmit={handleSubmit}
               >
                 {({ isSubmitting, dirty, isValid }) => (
-                  <Form className="flex flex-col space-y-4">
+                  <Form className="flex flex-col space-y-4 text-black">
                     <div>
                       <Field
                         name="name"

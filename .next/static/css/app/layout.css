@@ -582,9 +582,20 @@ video {
 .z-\[100\] {
   z-index: 100;
 }
+.m-8 {
+  margin: 2rem;
+}
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+.my-\[10em\] {
+  margin-top: 10em;
+  margin-bottom: 10em;
+}
+.my-\[6em\] {
+  margin-top: 6em;
+  margin-bottom: 6em;
 }
 .mb-12 {
   margin-bottom: 3rem;
@@ -625,6 +636,15 @@ video {
 .mt-2 {
   margin-top: 0.5rem;
 }
+.mt-\[10em\] {
+  margin-top: 10em;
+}
+.mb-\[5em\] {
+  margin-bottom: 5em;
+}
+.mt-\[7em\] {
+  margin-top: 7em;
+}
 .block {
   display: block;
 }
@@ -642,6 +662,14 @@ video {
 }
 .hidden {
   display: none;
+}
+.size-8 {
+  width: 2rem;
+  height: 2rem;
+}
+.size-32 {
+  width: 8rem;
+  height: 8rem;
 }
 .h-16 {
   height: 4rem;
@@ -899,6 +927,12 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(4rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(4rem * var(--tw-space-y-reverse));
+}
+.place-self-center {
+  place-self: center;
+}
+.self-center {
+  align-self: center;
 }
 .overflow-hidden {
   overflow: hidden;
