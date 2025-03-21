@@ -37,12 +37,12 @@ export default function Footer() {
           <ul className="space-y-2">
             <li>
               <Link href="documents/regulamin.pdf" className="hover:text-purple-400" target="_blank" rel="noopener noreferrer">
-                Regulamin
+                Regulamin imprez flow
               </Link>
             </li>
             <li>    
               <Link href="documents/zgoda.pdf" className="hover:text-purple-400" target="_blank" rel="noopener noreferrer">
-                Zgoda rodzica
+                Zgoda rodzica imprez flow
               </Link>
             </li>
           </ul>
