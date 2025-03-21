@@ -15,7 +15,6 @@ export default function Kontakt() {
         <EmailButton email="flowfest.events@gmail.com"/>
       </div>
 
-      <BackgroundLines className="flex items-center justify-center w-full flex-col px-4">
         <div className="z-30 text-white text-2xl w-[90%] md:w-[40%] bg-slate-800 p-8 rounded-2xl shadow-lg border border-purple-500 text-center">
           <p className="mb-4">
             Masz pomysł, opinię lub chcesz podzielić się swoją sugestią dotyczącą FlowFest? Czekamy na Twoje wiadomości! Jesteśmy otwarci na wszelkie propozycje, które pomogą nam tworzyć jeszcze lepsze wydarzenia.
@@ -30,7 +29,6 @@ export default function Kontakt() {
             Zapraszamy do kontaktu poprzez e-mail, telefon lub nasze media społecznościowe. Nasz zespół jest gotowy, aby odpowiedzieć na każde pytanie i nawiązać współpracę.
           </p>
         </div>
-      </BackgroundLines>
       
       
 
