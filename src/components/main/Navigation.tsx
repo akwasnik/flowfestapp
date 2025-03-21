@@ -26,7 +26,6 @@ export default function Navigation(){
                         <div className="ml-4 flex items-center space-x-4 font-asusrog text-2xl ">
                             <NavLink href="/Onas" mobile={false}>O nas</NavLink>
                             <NavLink href="/Galeria" mobile={false}>Galeria</NavLink>
-                            <NavLink href="/Wydarzenia" mobile={false}>Posty</NavLink>
                             <NavLink href="/Kontakt" mobile={false}>Kontakt</NavLink>
                         </div>
                     </div>

@@ -22,10 +22,10 @@ export default async function Home() {
             Zanurz się w świecie niezapomnianych imprez! Organizujemy wydarzenia, które na długo pozostają w pamięci. Dołącz do zabawy z nami!
           </p>
           <div className="flex space-x-4 pointer-events-auto">
-              <Link href="/Posty" className="p-[3px] relative font-bold rounded-lg transition duration-300 ease-in-out">
+              <Link href="/Oferta" className="p-[3px] relative font-bold rounded-lg transition duration-300 ease-in-out">
                 <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
                 <div className="px-8 py-2  bg-indigo-700 rounded-[6px]  relative group transition duration-200 text-white hover:bg-transparent">
-                  Zobacz Posty
+                  Zobacz Ofertę
                 </div>
             </Link>
           </div>
