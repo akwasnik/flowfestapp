@@ -1,6 +1,5 @@
 import { StaticImageData } from "next/image";
 import React from "react";
-import { IconType } from "react-icons";
 
 export interface SendEmailProps{
     name: string,

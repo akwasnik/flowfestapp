@@ -1,6 +1,5 @@
 import CallButton from "@/components/main/CallButton";
 import EmailButton from "@/components/main/EmailButton";
-import { BackgroundLines } from "@/components/ui/background-lines";
 
 export default function Kontakt() {
   return (
