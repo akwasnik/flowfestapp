@@ -11,7 +11,7 @@ const testimonials = [
     {
       name: "Anna Kowalska",
       feedback:
-        "FlowFest uczynił naszą studniówkę niezapomnianym przeżyciem! Muzyka, oświetlenie i atmosfera były idealne.",
+        "FlowFest uczynił sylwester niezapomnianym przeżyciem! Muzyka, oświetlenie i atmosfera były idealne.",
       image: testimonialImage1,
     },
     {
