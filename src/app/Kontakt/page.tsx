@@ -10,7 +10,10 @@ export default function Kontakt() {
       </div>
 
       <div className="flex items-center justify-center">
-        <CallButton phoneNumber="+48 571 050 285"></CallButton>
+        <div className="flex items-center justify-center flex-col">
+          <CallButton phoneNumber="+48 571 050 285"></CallButton>
+          <CallButton phoneNumber="+48 883 346 536" iconStyles="scale-50" buttonStyles=""></CallButton>
+        </div>
         <EmailButton email="flowfest.events@gmail.com"/>
       </div>
 

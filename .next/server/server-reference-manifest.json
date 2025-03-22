@@ -1,0 +1,17 @@
+{
+  "node": {
+    "00174bcfed97064a69223e1653516c2571a8121f65": {
+      "workers": {
+        "app/Kontakt/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fadrjanoz%2Fflowfestapp%2Fsrc%2Fapp%2Flayout.tsx%22%2C%5B%5B%2200174bcfed97064a69223e1653516c2571a8121f65%22%2C%22%24%24RSC_SERVER_ACTION_0%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/Kontakt/page": "rsc"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "K+kVrxqg2LrlCsmbzLMu7zGD0VQjoIPpaMZDdffOe4E="
+}

@@ -15,16 +15,17 @@ export default function Footer() {
 
           <h2 className="text-lg font-bold">Kontakt</h2>
         
-          <div className="grid grid-cols-2 items-center h-auto md:h-[65px] text-center text-sm">
+          <div className="grid grid-cols-3 items-center h-auto md:h-[65px] text-center text-sm">
+            <CallButton phoneNumber="+48 883 346 536" iconStyles="scale-50"/>
             <CallButton phoneNumber="+48 571 050 285"/>
             <EmailButton email="flowfest.events@gmail.com"/>
             { (width <= 768) && (
               <>
-                <div>+48571050285</div>
+                <a href="tel:+48 571 050 285">+48 571 050 285</a>
+                <div>Dodatkowy numer:  <a href="tel:+48 883 346 536">+48 883 346 536</a> </div>
                 <div>flowfest.events@gmail.com</div>
               </>
             )
-    
             }
           </div>
 
