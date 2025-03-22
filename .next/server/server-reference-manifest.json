@@ -6,61 +6,14 @@
           "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fadrjanoz%2Fflowfestapp%2Fsrc%2Fapp%2Flayout.tsx%22%2C%5B%5B%220054c0f29fcf4e9bf51567bd610abefbd176d3ab9e%22%2C%22%24%24RSC_SERVER_ACTION_0%22%5D%5D%5D%5D&__client_imported__=!",
           "async": false
         },
-        "app/admin/page": {
-          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fadrjanoz%2Fflowfestapp%2Fsrc%2Fapp%2Flayout.tsx%22%2C%5B%5B%220054c0f29fcf4e9bf51567bd610abefbd176d3ab9e%22%2C%22%24%24RSC_SERVER_ACTION_0%22%5D%5D%5D%5D&__client_imported__=!",
-          "async": false
-        },
-        "app/_not-found/page": {
-          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fadrjanoz%2Fflowfestapp%2Fsrc%2Fapp%2Flayout.tsx%22%2C%5B%5B%220054c0f29fcf4e9bf51567bd610abefbd176d3ab9e%22%2C%22%24%24RSC_SERVER_ACTION_0%22%5D%5D%5D%5D&__client_imported__=!",
-          "async": false
-        },
-        "app/Oferta/page": {
-          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fadrjanoz%2Fflowfestapp%2Fsrc%2Fapp%2Flayout.tsx%22%2C%5B%5B%220054c0f29fcf4e9bf51567bd610abefbd176d3ab9e%22%2C%22%24%24RSC_SERVER_ACTION_0%22%5D%5D%5D%5D&__client_imported__=!",
-          "async": false
-        },
-        "app/Kontakt/page": {
-          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fadrjanoz%2Fflowfestapp%2Fsrc%2Fapp%2Flayout.tsx%22%2C%5B%5B%220054c0f29fcf4e9bf51567bd610abefbd176d3ab9e%22%2C%22%24%24RSC_SERVER_ACTION_0%22%5D%5D%5D%5D&__client_imported__=!",
-          "async": false
-        },
         "app/Galeria/page": {
-          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fadrjanoz%2Fflowfestapp%2Fsrc%2Fapp%2Flayout.tsx%22%2C%5B%5B%220054c0f29fcf4e9bf51567bd610abefbd176d3ab9e%22%2C%22%24%24RSC_SERVER_ACTION_0%22%5D%5D%5D%5D&__client_imported__=!",
-          "async": false
-        },
-        "app/Onas/page": {
           "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fadrjanoz%2Fflowfestapp%2Fsrc%2Fapp%2Flayout.tsx%22%2C%5B%5B%220054c0f29fcf4e9bf51567bd610abefbd176d3ab9e%22%2C%22%24%24RSC_SERVER_ACTION_0%22%5D%5D%5D%5D&__client_imported__=!",
           "async": false
         }
       },
       "layer": {
         "app/page": "rsc",
-        "app/admin/page": "rsc",
-        "app/_not-found/page": "rsc",
-        "app/Oferta/page": "rsc",
-        "app/Kontakt/page": "rsc",
-        "app/Galeria/page": "rsc",
-        "app/Onas/page": "rsc"
-      }
-    },
-    "00cc57c79d970d9e42a0a11b6d4b16634d9c3f0c3e": {
-      "workers": {
-        "app/admin/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fadrjanoz%2Fflowfestapp%2Fsrc%2Flib%2Factions.ts%22%2C%5B%5B%2200cc57c79d970d9e42a0a11b6d4b16634d9c3f0c3e%22%2C%22logout%22%5D%2C%5B%226098c1dada017aa02ca1cd35bb73e1578753c3a5b3%22%2C%22login%22%5D%5D%5D%5D&__client_imported__=true!",
-          "async": true
-        }
-      },
-      "layer": {
-        "app/admin/page": "action-browser"
-      }
-    },
-    "6098c1dada017aa02ca1cd35bb73e1578753c3a5b3": {
-      "workers": {
-        "app/admin/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fadrjanoz%2Fflowfestapp%2Fsrc%2Flib%2Factions.ts%22%2C%5B%5B%2200cc57c79d970d9e42a0a11b6d4b16634d9c3f0c3e%22%2C%22logout%22%5D%2C%5B%226098c1dada017aa02ca1cd35bb73e1578753c3a5b3%22%2C%22login%22%5D%5D%5D%5D&__client_imported__=true!",
-          "async": true
-        }
-      },
-      "layer": {
-        "app/admin/page": "action-browser"
+        "app/Galeria/page": "rsc"
       }
     }
   },
