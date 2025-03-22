@@ -23,7 +23,7 @@ const testimonials = [
     {
       name: "Magda Wiśniewska",
       feedback:
-        "Dzięki FlowFest moja osiemnastka stała się imprezą życia! Wszyscy świetnie się bawili.",
+        "Dzięki FlowFest połowinki mojej szkoły stały się imprezą życia! Wszyscy świetnie się bawili.",
       image: testimonialImage3,
     },
   ];
