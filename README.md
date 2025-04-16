@@ -32,7 +32,7 @@ Projekt został zbudowany przy użyciu najnowszych technologii:
 - **Cloudinary** – zarządzanie zdjęciami w galerii
 - **TypeScript** – bezpieczny i skalowalny kod
 - **Netlify** – hosting i CI/CD
-- **Snyk** – CI pipeline i bezpieczeństwo
+- **Snyk** – wykrywania luk bezpieczeństwa
 - **wiele innych**
 
 ---
