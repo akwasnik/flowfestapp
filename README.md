@@ -6,7 +6,7 @@ Stworzyłem tą aplikację, ponieważ sam należe do organizacji FlowFest i był
 
 ---
 
-## 🌐 Demo na żywo
+## 🌐 Sprawdź na żywo
 
 Aplikacja jest zdeployowana na [Netlify](https://www.netlify.com/) z ustawionymi własnymi rekordami DNS oraz zakupioną domeną:  
 🔗 **[flowfest.pl](https://flowfest.pl)**
