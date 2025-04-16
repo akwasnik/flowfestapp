@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎉 FlowFest – Oficjalna Aplikacja Firmy FlowFest
 
-## Getting Started
+Oficjalnej aplikacja firmy **FlowFest** – firma organizująca i promująca niezapomniane wydarzenia muzyczne w Polsce.
 
-First, run the development server:
+Stworzyłem tą aplikację, ponieważ sam należe do organizacji FlowFest i było to działanie non-profit. Mogłem dzięki temu wesprzeć organizację jak i zyskać doświadczenie w tworzeniu stron. Docelowo miał być to tylko projekt na zaliczenie przedmiotu studiów, aczkolwiek teraz jest to pełna aplikacja gotowa do przyszłego rozwoju.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌐 Demo na żywo
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Aplikacja jest zdeployowana na [Netlify](https://www.netlify.com/) z ustawionymi własnymi rekordami DNS oraz zakupioną domeną:  
+🔗 **[flowfest.pl](https://flowfest.pl)**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🖼️ Podgląd interfejsu
 
-To learn more about Next.js, take a look at the following resources:
+Poniżej znajdziesz podgląd wyglądu aplikacji (dodaj własny screen):
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Zrzut ekranu z aplikacji FlowFest](./screenshot.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🚀 Technologie
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Projekt został zbudowany przy użyciu najnowszych technologii:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Next.js** – framework React dla SSR i SSG
+- **Tailwind CSS** – stylowanie z wykorzystaniem klas utility
+- **Framer Motion** – płynne i estetyczne animacje
+- **Formik + Yup** – zarządzanie formularzami i walidacja
+- **Cloudinary** – zarządzanie zdjęciami w galerii
+- **TypeScript** – bezpieczny i skalowalny kod
+- **Netlify** – hosting i CI/CD
+- **Snyk** – CI pipeline i bezpieczeństwo
+- **wiele innych**
+
+---
+
+## 💼 Funkcjonalności
+
+- Interaktywna strona główna i galeria
+- Sekcja "O nas", "Kontakt", "Oferta"
+- Formikowe formularze z walidacją YUP (kontakt, logowanie)
+- Własny CMS z ContextAPI do zarządzania postami
+- Responsywny design – działa idealnie na telefonach
+- Modalne zdjęcia z animacją
+- Animacje i styl zachowany w tematyce **FlowFest**
