@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@ant-design/icons": "^5.6.0",
+    "@ant-design/icons": "^6.0.0",
     "argon2": "^0.41.1",
     "clsx": "^2.1.1",
     "formik": "^2.4.6",
